@@ -15,7 +15,7 @@ import java.util.Map;
 
 public class DictionaryApp extends Application {
     private Map<String, String> dictionary = new HashMap<>();
-    private final String FILENAME = "dictionary.txt";
+    private final String FILENAME = "C:\\Users\\admin\\IdeaProjects\\a\\src\\main\\resources\\dictionary.txt";
     private TextField wordField;
     private TextField meaningField;
     private Label resultLabel;
