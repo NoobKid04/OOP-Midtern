@@ -1,4 +1,4 @@
 package Dictionary.App;
 
-public class Menu {
+public class translate {
 }
