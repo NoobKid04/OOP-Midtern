@@ -1,10 +1,8 @@
-package Implement;
-
-public class WordFormatter {
-  public static String normalize(String s) {
-    if (s.isBlank()) return s;
-    s = s.trim();
-    StringBuilder res = new StringBuilder(s);
+public class Standardization {
+  public static String normalize(String str) {
+    if (str.isBlank()) return str;
+    str = str.trim();
+    StringBuilder res = new StringBuilder(str);
     for (int i = 0; i < res.length(); i++) {
       char c = res.charAt(i);
       res.setCharAt(i, Character.toLowerCase(c));
