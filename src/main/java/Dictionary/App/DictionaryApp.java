@@ -1,5 +1,9 @@
 package Dictionary.App;
 
+import AnnagramGame.gameMenuController;
+import AnnagramGame.gameModeController;
+import AnnagramGame.gameScoreController;
+import AnnagramGame.inGameController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -19,6 +23,10 @@ public class DictionaryApp extends Application {
     public static Scene addWordScene, addAPIScence, deleteScence;
     public static Main mainControl;
     public static translate translateControl;
+    public static inGameController inGameControl;
+    public static gameScoreController gameScoreControl;
+    public static gameMenuController gameMainMenuControl;
+    public static gameModeController gameModeController;
 
     Parent dictionaryRoot, translateRoot, addWordRoot, addAPIRoot, deleteRoot, infoRoot;
     Parent anagramGameRoot, anagramScoreRoot, anagramMainRoot, anagramModeRoot;

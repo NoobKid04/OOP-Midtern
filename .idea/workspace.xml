@@ -4,6 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="2a228855-0796-45e1-bdbd-83389a956964" name="Changes" comment="Merge remote-tracking branch 'origin/Dũng'">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary/App/DictionaryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dictionary/App/DictionaryApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Anagram/givenButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Game/Anagram/gameMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Game/Anagram/gameMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Game/Anagram/inGame.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Game/Anagram/inGame.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Game/Anagram/mode.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Game/Anagram/mode.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Game/Anagram/score.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Game/Anagram/score.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
