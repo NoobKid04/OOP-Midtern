@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb91a04e-aaae-431b-befa-fd813fd235ed" name="Changes" comment="Merge remote-tracking branch 'origin/Dũng'">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
         <option value="Class" />
-        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -136,7 +131,6 @@
       <workItem from="1714972189981" duration="1403000" />
       <workItem from="1715008516085" duration="241000" />
       <workItem from="1715008805663" duration="140000" />
-      <workItem from="1715008995861" duration="4138000" />
     </task>
     <task id="LOCAL-00001" summary="add some change">
       <option name="closed" value="true" />
@@ -170,15 +164,6 @@
       <option name="project" value="LOCAL" />
       <updated>1715011324285</updated>
     </task>
-    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/Dũng'">
-      <option name="closed" value="true" />
-      <created>1715011672114</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1715011672114</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
