@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b3d6524-a827-4516-9022-c6e05cff0cc8" name="Changes" comment="za">
+    <list default="true" id="2a228855-0796-45e1-bdbd-83389a956964" name="Changes" comment="Merge remote-tracking branch 'origin/Dũng'">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Implement/Input/AddFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Implement/Input/AddFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnnagramGame/inGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnnagramGame/inGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary/Utilities/addAPIController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary/Utilities/addWordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary/Utilities/deleteWordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary/Utilities/infoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Implement/Input/SingleWord/Phonetic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Utilities/addAPINotice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Utilities/addAPINotice.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Utilities/addWordNotice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Utilities/addWordNotice.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Utilities/deleteWarning.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Utilities/deleteWarning.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Utilities/infoNotice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Utilities/infoNotice.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,26 +26,53 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="module-info" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="nmdzung &lt;nguyenmanhdung0910@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Huy" />
+        <entry key="$PROJECT_DIR$" value="Hiếu" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NoobKid04&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NoobKid04/OOP-Midtern&quot;,
+    &quot;accountId&quot;: &quot;c179019a-fbe8-435c-8290-2c5bf87f18fa&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/Dictionary/App/DictionaryApp.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
+  &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2g3T3cIxwYHiV3aKOzJ2ESigYqn" />
+  <component name="ProjectId" id="2g2Le7wZx83xdCS2DrasNfbMI3z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,46 +80,42 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.DictionaryApp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/a&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;last_opened_file_path&quot;: &quot;F:/Java/OOP-Midtern/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.51724136&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
+    ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\OOP-Midtern\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="DictionaryApp" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="22" />
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Dictionary.App.DictionaryApp" />
-      <module name="OOP-Midtern" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\admin\.openjfx\cache\openjfx-22.0.1_windows-x64_bin-sdk\javafx-sdk-22.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="22" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Dictionary.App.DictionaryApp" />
-      <module name="OOP-Midtern" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\admin\.openjfx\cache\openjfx-22.0.1_windows-x64_bin-sdk\javafx-sdk-22.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="a" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="a" />
-      <option name="filePath" />
+      <module name="OOP_Midtern" />
+      <option name="VM_PARAMETERS" value=" --module-path &quot;F:\javafx-sdk-22\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,33 +124,84 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-20.0.2-corretto-20.0.2.1-4caba194b151-5bc9ecd2" />
-        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6b3d6524-a827-4516-9022-c6e05cff0cc8" name="Changes" comment="" />
-      <created>1714925062596</created>
+      <changelist id="2a228855-0796-45e1-bdbd-83389a956964" name="Changes" comment="Merge remote-tracking branch 'origin/Dũng'" />
+      <created>1714890817730</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1714925062596</updated>
+      <updated>1714890817730</updated>
+      <workItem from="1714890818781" duration="685000" />
+      <workItem from="1714891531979" duration="2425000" />
+      <workItem from="1714916315608" duration="20359000" />
+      <workItem from="1714939561923" duration="2000" />
+      <workItem from="1714966450945" duration="3035000" />
+      <workItem from="1714972189981" duration="1403000" />
+      <workItem from="1715008516085" duration="241000" />
+      <workItem from="1715008805663" duration="140000" />
+      <workItem from="1715042405747" duration="3272000" />
+      <workItem from="1715053118696" duration="67000" />
+      <workItem from="1715053224063" duration="2000" />
     </task>
-    <task id="LOCAL-00001" summary="za">
+    <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/Dũng'">
       <option name="closed" value="true" />
-      <created>1715016784400</created>
+      <created>1715023641690</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1715016784400</updated>
+      <updated>1715023641690</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1714919677122</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714919677122</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1714934287544</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714934287544</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/Dũng'">
+      <option name="closed" value="true" />
+      <created>1715011324285</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715011324285</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="za" />
-    <option name="LAST_COMMIT_MESSAGE" value="za" />
+    <MESSAGE value="add some change" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/Dũng'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Dũng'" />
   </component>
 </project>

@@ -163,7 +163,7 @@ public class inGameController implements Initializable {
         button.setMinHeight(60); button.setMinWidth(60);
         button.setMaxHeight(60); button.setMaxWidth(60);
         button.setGraphic(getCharImage(c));
-        button.setOnAction(actionEvent -> onClick(button));
+        button.setOnAction(event -> onClick(button));
         subject.add(button, numCol++, 0);
         GridPane.setHalignment(button,  HPos.CENTER);
     }
@@ -174,7 +174,7 @@ public class inGameController implements Initializable {
         button1.setMinHeight(60); button1.setMinWidth(60);
         button1.setMaxHeight(60); button1.setMaxWidth(60);
         button1.setGraphic(getCharImage(button.getCharacter()));
-        button1.setOnAction(actionEvent -> onClick(button1));
+        button1.setOnAction(event -> onClick(button1));
         answer.getChildren().add(button1);
         button.setVisible(false);
         buttons.add(button1);
