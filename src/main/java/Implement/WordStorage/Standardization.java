@@ -1,3 +1,5 @@
+package Implement.WordStorage;
+
 public class Standardization {
   public static String normalize(String str) {
     if (str.isBlank()) return str;

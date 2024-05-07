@@ -1,7 +1,7 @@
 package Implement.Input;
 
-import Implement.WordFormatter;
 import Implement.WordStorage.DictionaryMap;
+import Implement.WordStorage.Standardization;
 import Implement.WordStorage.Trie.Trie;
 import java.io.BufferedReader;
 import java.io.File;
@@ -22,7 +22,7 @@ public class AddFromFile {
 
         String[] s = word.split("\\s+");
         word = s[0].substring(1);
-        word = WordFormatter.normalize(word);
+        word = Standardization.normalize(word);
 
         String a = "";
         for (int i = 1; i<s.length; i++) {
