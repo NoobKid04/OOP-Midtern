@@ -1,7 +1,7 @@
 package Implement.Input;
 
 import Implement.WordStorage.DictionaryMap;
-import Implement.Standardization;
+import Implement.WordStorage.Standardization;
 import Implement.WordStorage.Trie.Trie;
 import java.io.BufferedReader;
 import java.io.File;

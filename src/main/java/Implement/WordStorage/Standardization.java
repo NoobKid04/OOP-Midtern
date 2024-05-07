@@ -1,4 +1,4 @@
-package Implement;
+package Implement.WordStorage;
 
 public class Standardization {
   public static String normalize(String str) {

@@ -1,7 +1,6 @@
 package AnnagramGame;
 
-import Implement.History;
-import Implement.Standardization;
+import Implement.WordStorage.Standardization;
 import Implement.WordStorage.DictionaryMap;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;

@@ -2,6 +2,7 @@ package Implement.Input.SingleWord;
 
 import java.util.ArrayList;
 import java.util.List;
+import Implement.Phonetic;
 
 public class DictionaryEntry {
   private String word = new String();
