@@ -4,21 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb91a04e-aaae-431b-befa-fd813fd235ed" name="Changes" comment="Merge remote-tracking branch 'origin/Dũng'">
+    <list default="true" id="2a228855-0796-45e1-bdbd-83389a956964" name="Changes" comment="Merge remote-tracking branch 'origin/Dũng'">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnnagramGame/inGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnnagramGame/inGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary/Utilities/addAPIController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary/Utilities/addWordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary/Utilities/deleteWordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary/Utilities/infoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Implement/Input/SingleWord/Phonetic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Utilities/addAPINotice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Utilities/addAPINotice.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Utilities/addWordNotice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Utilities/addWordNotice.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Utilities/deleteWarning.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Utilities/deleteWarning.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Utilities/infoNotice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Utilities/infoNotice.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
         <option value="Class" />
-        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -123,7 +132,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eb91a04e-aaae-431b-befa-fd813fd235ed" name="Changes" comment="" />
+      <changelist id="2a228855-0796-45e1-bdbd-83389a956964" name="Changes" comment="Merge remote-tracking branch 'origin/Dũng'" />
       <created>1714890817730</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -136,15 +145,17 @@
       <workItem from="1714972189981" duration="1403000" />
       <workItem from="1715008516085" duration="241000" />
       <workItem from="1715008805663" duration="140000" />
-      <workItem from="1715008995861" duration="4138000" />
+      <workItem from="1715042405747" duration="3272000" />
+      <workItem from="1715053118696" duration="67000" />
+      <workItem from="1715053224063" duration="2000" />
     </task>
-    <task id="LOCAL-00001" summary="add some change">
+    <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/Dũng'">
       <option name="closed" value="true" />
-      <created>1714892150814</created>
+      <created>1715023641690</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1714892150814</updated>
+      <updated>1715023641690</updated>
     </task>
     <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/main'">
       <option name="closed" value="true" />
@@ -170,15 +181,7 @@
       <option name="project" value="LOCAL" />
       <updated>1715011324285</updated>
     </task>
-    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/Dũng'">
-      <option name="closed" value="true" />
-      <created>1715011672114</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1715011672114</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
