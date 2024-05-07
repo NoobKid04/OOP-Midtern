@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a228855-0796-45e1-bdbd-83389a956964" name="Changes" comment="Merge remote-tracking branch 'origin/Dũng'">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnnagramGame/inGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnnagramGame/inGameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary/Utilities/addAPIController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary/Utilities/addWordController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary/Utilities/deleteWordController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary/Utilities/infoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Implement/Input/SingleWord/Phonetic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Utilities/addAPINotice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Utilities/addAPINotice.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Utilities/addWordNotice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Utilities/addWordNotice.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Utilities/deleteWarning.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Utilities/deleteWarning.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Utilities/infoNotice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Utilities/infoNotice.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary/App/TextToSpeech.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/History.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Standardization.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,10 +74,10 @@
     &quot;Application.DictionaryApp.executor&quot;: &quot;Run&quot;,
     &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Hiếu&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Java/OOP-Midtern/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Java/OOP-Midtern/src/main/java/Dictionary/Utilities&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -106,6 +98,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\OOP-Midtern\src\main\java\Dictionary\Utilities" />
       <recent name="F:\Java\OOP-Midtern\src\main\resources" />
     </key>
   </component>
@@ -148,6 +141,7 @@
       <workItem from="1715042405747" duration="3272000" />
       <workItem from="1715053118696" duration="67000" />
       <workItem from="1715053224063" duration="2000" />
+      <workItem from="1715058512049" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/Dũng'">
       <option name="closed" value="true" />
