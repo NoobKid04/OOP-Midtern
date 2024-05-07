@@ -14,14 +14,17 @@ import org.json.JSONArray;
 import java.net.URLEncoder;
 
 public class Translator {
+    public interface Callback {
+      void onSuccess(String res);
+    }
 
-  public void translate(String text, String start, String end, comeBack comeBack) {
-    Thread l = new Thread(() -> {
+  public void translate(String text, String langFrom, String langTo, Callback callback) {
+    Thread thread = new Thread(() -> {
       HttpClient httpclient = HttpClients.createDefault();
       try {
         String encodedText = URLEncoder.encode(text, "UTF-8");
         String urlStr = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=" +
-            start + "&tl=" + end + "&dt=t&q=" + encodedText;
+            langFrom + "&tl=" + langTo + "&dt=t&q=" + encodedText;
 
         HttpGet httpGet = new HttpGet(urlStr);
         HttpResponse response = httpclient.execute(httpGet);
@@ -29,23 +32,20 @@ public class Translator {
 
         String result = EntityUtils.toString(entity);
         JSONArray jsonArray = new JSONArray(result);
-        if ((jsonArray != null) && jsonArray.length() > 0) {
+        if (jsonArray != null && jsonArray.length() > 0) {
           StringBuilder translatedTextBuilder = new StringBuilder();
           JSONArray translations = jsonArray.getJSONArray(0);
-          int i = 0;
-          while (i < translations.length()) {
+          for (int i = 0; i < translations.length(); i++) {
             JSONArray translation = translations.getJSONArray(i);
             String translatedSegment = translation.getString(0);
             translatedTextBuilder.append(translatedSegment).append(" ");
-            i++;
           }
-
-          Platform.runLater(() -> comeBack.back(translatedTextBuilder.toString().trim()));
+          Platform.runLater(() -> callback.onSuccess(translatedTextBuilder.toString().trim()));
         }
       } catch (Exception e) {
         e.printStackTrace();
       }
     });
-    l.start();
+    thread.start();
   }
 }

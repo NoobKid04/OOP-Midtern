@@ -19,26 +19,20 @@ public class AddFromFile {
       String word, spelling, audio;
       StringBuilder meaning;
       while ((word = bufferedReader.readLine()) != null) {
-
-        String[] s = word.split("\\s+");
-        word = s[0].substring(1);
         word = WordFormatter.normalize(word);
-
-        String a = "";
-        for (int i = 1; i<s.length; i++) {
-          a += s[i] + " ";
-        }
-        spelling = a;
-
-        audio = "https://api.dictionaryapi.dev/media/pronunciations/en/" + word + "-us.mp3";
-
+        spelling = bufferedReader.readLine();
+        audio = bufferedReader.readLine();
         meaning = new StringBuilder();
         String tmp;
         while ((tmp = bufferedReader.readLine()) != null) {
+          meaning.append(tmp).append("\n");
           if (tmp.isBlank()) {
+            meaning.deleteCharAt(meaning.length() - 1);
             break;
           }
-          meaning.append(tmp).append("\n");
+        }
+        if (word.isBlank()) {
+          continue;
         }
         Trie.add(word, spelling, meaning.toString(), audio);
         DictionaryMap.add(word, meaning.toString()); // Thêm vào Map
