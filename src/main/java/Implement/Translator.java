@@ -11,7 +11,10 @@ import org.json.JSONArray;
 
 import java.net.URLEncoder;
 
-public class Translate {
+public class Translator {
+    public interface ComeBack {
+        void onBack(String res);
+    }
     public void translate(String text, String start, String end, ComeBack Come) {
 
         /**

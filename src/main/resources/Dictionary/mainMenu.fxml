@@ -16,7 +16,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.TextFlow?>
 
-<SplitPane dividerPositions="0.08958517210944394" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="908.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<SplitPane dividerPositions="0.08958517210944394" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="908.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dictionary.App.Main">
    <items>
       <GridPane prefHeight="598.0" prefWidth="716.0">
          <columnConstraints>
@@ -103,7 +103,7 @@
                   </TextArea>
                </content>
             </ScrollPane>
-            <ImageView fx:id="bookmark2" fitHeight="31.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <ImageView fx:id="bookmark2" fitHeight="31.0" fitWidth="35.0" onMouseClicked="#changeStarState" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../Images/starUntoggle.png" />
                </image>
@@ -111,7 +111,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </GridPane.margin>
             </ImageView>
-            <ImageView fx:id="recycleBinIcon" fitHeight="30.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <ImageView fx:id="recycleBinIcon" fitHeight="30.0" fitWidth="31.0" onMouseClicked="#deleteWord" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <GridPane.margin>
                   <Insets bottom="5.0" left="40.0" right="5.0" top="5.0" />
                </GridPane.margin>
@@ -119,7 +119,7 @@
                   <Image url="@../Images/bin.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="editerIcon" fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <ImageView fx:id="editerIcon" fitHeight="29.0" fitWidth="30.0" onMouseClicked="#openEditor" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <GridPane.margin>
                   <Insets bottom="5.0" left="75.0" right="5.0" top="5.0" />
                </GridPane.margin>
@@ -127,7 +127,7 @@
                   <Image url="@../Images/editor.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="speakerIcon" fitHeight="29.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <ImageView fx:id="speakerIcon" fitHeight="29.0" fitWidth="31.0" onMouseClicked="#playMedia" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <GridPane.margin>
                   <Insets left="9.0" />
                </GridPane.margin>
@@ -135,7 +135,7 @@
                   <Image url="@../Images/speaker.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="crossIcon" fitHeight="32.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <ImageView fx:id="crossIcon" fitHeight="32.0" fitWidth="33.0" onMouseClicked="#exitEditor" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <GridPane.margin>
                   <Insets right="3.0" />
                </GridPane.margin>
@@ -143,7 +143,7 @@
                   <Image url="@../Images/cross.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="tickIcon" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <ImageView fx:id="tickIcon" fitHeight="30.0" fitWidth="30.0" onMouseClicked="#saveEditor" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <GridPane.margin>
                   <Insets left="3.0" />
                </GridPane.margin>
@@ -156,7 +156,7 @@
                   <Insets bottom="1.0" left="40.0" right="1.0" top="1.0" />
                </GridPane.margin>
             </TextField>
-            <ImageView fx:id="addIcon" fitHeight="30.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <ImageView fx:id="addIcon" fitHeight="30.0" fitWidth="32.0" onMouseClicked="#addFromAPI" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <GridPane.margin>
                   <Insets left="105.0" />
                </GridPane.margin>

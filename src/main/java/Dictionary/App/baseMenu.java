@@ -54,7 +54,7 @@ public abstract class baseMenu implements Initializable {
         Tooltip.install(node, tooltip);
     }
 
-    public void style(Node node, String s) {
+    void style(Node node, String s) {
         node.getStyleClass().add(s);
     }
 
@@ -64,7 +64,7 @@ public abstract class baseMenu implements Initializable {
         bookmarkIcon.setGraphic(getImageView("star", 40, 40));
         historyIcon.setGraphic(getImageView("History", 40, 40));
         APIIcon.setGraphic(getImageView("apiIcon", 40, 40));
-        translateIcon.setGraphic(getImageView("translate", 40, 40));
+        translateIcon.setGraphic(getImageView("transController", 40, 40));
         gameIcon.setGraphic(getImageView("game", 40, 40));
         style(searchIcon, "toHandCursor"); style(bookmarkIcon, "toHandCursor");
         style(historyIcon, "toHandCursor"); style(APIIcon, "toHandCursor");
@@ -94,9 +94,6 @@ public abstract class baseMenu implements Initializable {
     }
     public void switchtoTranslate() {
         toggle(translateIcon);
-    }
-    public void switchtoGame() {
-        toggle(gameIcon);
     }
 
     void mainMenu() {

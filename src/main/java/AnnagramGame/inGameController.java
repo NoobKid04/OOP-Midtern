@@ -1,6 +1,7 @@
 package AnnagramGame;
 
-import Implement.WordFormatter;
+import Implement.History;
+import Implement.Standardization;
 import Implement.WordStorage.DictionaryMap;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -203,7 +204,7 @@ public class inGameController implements Initializable {
         for(choiceButton button : buttons) {
             stringBuilder.append(button.getParentButton().getCharacter().toString());
         }
-        String string = WordFormatter.normalize(stringBuilder.toString());
+        String string = Standardization.normalize(stringBuilder.toString());
         if(DictionaryMap.exist(string) && string.length() == stringBuilder.length()) {
             score++;
             countdownSeconds+=5;
