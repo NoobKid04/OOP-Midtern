@@ -12,17 +12,17 @@ import org.json.JSONArray;
 import java.net.URLEncoder;
 
 public class Translator {
-  public interface Callback {
-    void onSuccess(String res);
+  public interface commBack {
+    void onBack(String res);
   }
 
-  public void translate(String text, String langFrom, String langTo, Callback callback) {
+  public void translate(String text, String start, String end, commBack comeback) {
     Thread thread = new Thread(() -> {
       HttpClient httpclient = HttpClients.createDefault();
       try {
         String encodedText = URLEncoder.encode(text, "UTF-8");
         String urlStr = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=" +
-            langFrom + "&tl=" + langTo + "&dt=t&q=" + encodedText;
+            start + "&tl=" + end + "&dt=t&q=" + encodedText;
 
         HttpGet httpGet = new HttpGet(urlStr);
         HttpResponse response = httpclient.execute(httpGet);
@@ -38,7 +38,7 @@ public class Translator {
             String translatedSegment = translation.getString(0);
             translatedTextBuilder.append(translatedSegment).append(" ");
           }
-          Platform.runLater(() -> callback.onSuccess(translatedTextBuilder.toString().trim()));
+          Platform.runLater(() -> comeback.onBack(translatedTextBuilder.toString().trim()));
         }
       } catch (Exception e) {
         e.printStackTrace();
