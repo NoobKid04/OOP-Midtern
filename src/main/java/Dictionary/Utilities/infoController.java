@@ -8,21 +8,21 @@ import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 public class infoController {
-    @FXML
-    private Button confirm;
+  @FXML
+  private Button btnOK;
 
-    @FXML
-    private ImageView infoIcon;
+  @FXML
+  private ImageView imgIcon;
 
-    @FXML
-    private Label message;
+  @FXML
+  private Label msg;
 
-    public void setPrompt(String MSG) {
-        message.setText(MSG);
-    }
-    @FXML
-    public void clkOK(ActionEvent e) {
-        Stage stage = (Stage) message.getScene().getWindow();
-        stage.close();
-    }
+  public void setPrompt(String MSG) {
+    msg.setText(MSG);
+  }
+  @FXML
+  public void clickOK(ActionEvent e) {
+    Stage stage = (Stage) msg.getScene().getWindow();
+    stage.close();
+  }
 }
